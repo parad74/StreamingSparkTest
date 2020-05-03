@@ -12,7 +12,7 @@ namespace WebAPI.Model.AWS
        {
            IturList =  new List<Itur>();
         }
-        public virtual bool Open(long partitionId, long epochId)
+        public bool Open(long partitionId, long epochId)
         {
             try
             {
@@ -25,7 +25,7 @@ namespace WebAPI.Model.AWS
                 return false;
             }
         }
-        public virtual void Process(Row value)
+        public void Process(Row value)
         {
            string iturCode = value.GetAs<string>("IturCode");
            string iturERP = value.GetAs<string>("IturERP");

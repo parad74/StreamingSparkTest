@@ -23,12 +23,12 @@ namespace WebAPI.Model.AWS
             }
         }
 
-        public virtual bool Open(long partitionId, long epochId)
+        public bool Open(long partitionId, long epochId)
         {
             return true;
         }
 
-         public virtual void Process(Row value)
+         public void Process(Row value)
         {
            // Console.WriteLine($"==> {row.Get<string>("IturCode")} - {row.Get<string>("IturERP")} - {row.Get<string>("QuantityEdit")} - {row.Get<string>("PartialQuantity")}");
            //Console.WriteLine(value.Get(0));

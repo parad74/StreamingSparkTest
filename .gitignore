@@ -3,3 +3,7 @@
 ################################################################################
 
 /src/StreamingSparkTest/obj
+/src/StreamingSparkTest/bin/Debug/netcoreapp3.1/runtimes
+/src/StreamingSparkTest/bin/Debug/netcoreapp3.1
+/.vs/StreamingSparkTest/v16/.suo
+/src/StreamingSparkTest/StreamingSparkTest.csproj.user
